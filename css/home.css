@@ -13,11 +13,13 @@ h1 {
 }
 
 h2 {
-    font-size: 64px;
+    font-size: 32px;
     font-weight: lighter;
     opacity: 1;
     border: none;
     margin-left: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 p {
