@@ -25,6 +25,10 @@ p {
     width: 50%;
 }
 
+header div {
+    padding: 0;
+}
+
 div {
     padding: 30px;
 }
