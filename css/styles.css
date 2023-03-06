@@ -116,7 +116,7 @@ img {
 }
 
 .nav-link {
-    color: var(--text-color);
+    color: #88e9d9;
     text-decoration: none;
     transition: all 0.3s ease 0s;
 }
