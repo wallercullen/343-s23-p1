@@ -1,1 +1,73 @@
-hello world!
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel='stylesheet' href='css/styles.css'>
+        <link rel='stylesheet' href='css/home.css'>
+        <link rel='icon' type='image/png' href='icons/icons8-non-lactose-food-50.png'>
+        <title>We Don't Sell Milk</title>
+    </head>
+    <body>
+
+        <header>
+            <nav aria-label='nav-name' class='sitename'>
+                <a class='nav-link' href='index.html'>We Don't Sell Milk</a>
+            </nav>
+            <nav aria-label='nav-bar'>
+                <ul class='navbar'>
+                    <li class='nav-item'><a class='nav-link' href='index.html'>Home</a></li>
+                    <li class='nav-item'><a class='nav-link' href='about.html'>About Us</a></li>
+                    <li class='nav-item dropdown'>
+                        <button class='nav-link'><a class='nav-link' href='products.html'>Non-Milk Products</a>
+                        <ul class='navbar'>
+                            <li class='list-top'><a class='nav-link' href='apples.html'>Apples</a></li>
+                        <li class='list-bottom'><a class='nav-link' href='applesauce.html'>Applesauce</a></li>
+                        </ul>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class='flex-container-column intro-title'>
+            <h1 class='grid-row-column-start'>We Don't Sell Milk</h1>
+        </div>
+        <div class='flex-container-column'>
+            <p>Welcome to We Don't Sell Milk! We pride ourselves in our wide variety of non-milk products including apples, applesauce, and apple juice!
+                Since its inception, We Don't Sell Milk has made a firm commitment to provide exclusivley non-milk products to our customers, and we plan
+                to keep it that way!
+            </p>
+        </div>
+        <div>
+            <p><a class='nav-link' href='https://en.wikipedia.org/wiki/Apple' target="_blank">Learn about what isn't milk!</a></p>
+        </div>
+
+        <h3><a class='nav-link' href='about.html''>About us</a></h3>
+        <br>
+        <div>
+            <p>Learn more about how we got started.</p>
+        </div>
+        <h3><a class='nav-link' href='products.html'>Products</a></h3>
+        <br>
+        <div>
+            <p>Take a look at our vast catalog of products that aren't milk. Absolutely no milk.</p>
+        </div>
+
+        <footer>
+            <form>
+                <div class='flex-container-row'>
+                <label class='text-center'>Contact Us</label>
+                <div class='flex-container-column'>
+                    <label for='name'>Name</label>
+                    <input type="text" id='name' name='name'>
+                    <label for='email'>Email</label>
+                    <input type='email' id='email' name='email'>
+                </div>
+                <label class='text-center' for='message'>Message</label>
+                <textarea class='textbox-center' id='message' name='message' rows='4' cols='50'> </textarea>
+                <input class='text-center' type='submit' value='Send' id='send'>
+                </div>
+            </form>
+            <a class="nav-link" target="_blank" href="https://icons8.com/icon/57492/non-lactose-food">Non Lactose Food</a> icon by <a target="_blank" class="nav-link" href="https://icons8.com">Icons8</a>
+        </footer>
+    </body>
+</html>
